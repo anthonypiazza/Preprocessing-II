@@ -171,20 +171,15 @@ img {
 nav {
   display: flex;
   align-items: center;
-  margin: 28px 29% 0px 30%;
+  margin: 26px 25% 0px 28.5%;
   justify-content: flex-start;
-}
-nav .nav-logo {
-  width: 20%;
-  border: 1px solid black;
 }
 nav .nav-logo h1 {
   font-size: 45px;
 }
 nav .nav-menu {
-  width: 79%;
   font-size: 18px;
-  border: 1px solid black;
+  width: 78%;
   display: flex;
   justify-content: flex-end;
 }
@@ -202,10 +197,17 @@ nav .nav-menu a {
   font-size: 1.6rem;
   padding: 20px;
 }
-.container-header section > img {
-  margin: 25px 40% 0px 30%;
+.container-header section img {
+  margin: 20px 35% 0px 28.5%;
   height: 270px;
   width: 890px;
+  border-top: 2px dashed #C0C0C0;
+}
+.container-header .header-text {
+  margin: 20px 25% 0px 28.5%;
+  line-height: 1.2;
+  border-bottom: 2px dashed #C0C0C0;
+  padding-bottom: 30px;
 }
 .home .content-section {
   margin: 30px 0;
@@ -252,4 +254,13 @@ nav .nav-menu a {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  border-radius: 15px;
+  padding: 12px 0px;
+  background-color: #17A2B8;
+  text-align: center;
+  font-size: 20px;
+  color: #FFFFFF;
+  width: 90%;
 }
