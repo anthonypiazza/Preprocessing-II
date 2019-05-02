@@ -171,7 +171,7 @@ img {
 nav {
   display: flex;
   align-items: center;
-  margin: 26px 25% 0px 28.5%;
+  margin-top: 26px;
   justify-content: flex-start;
 }
 @media (max-width: 500px) {
@@ -225,7 +225,6 @@ nav .nav-menu a {
   padding: 20px;
 }
 .container-header section img {
-  margin: 20px 35% 0px 28.5%;
   height: 240px;
   width: 800px;
   border-top: 2px dashed #C0C0C0;
@@ -238,7 +237,6 @@ nav .nav-menu a {
   }
 }
 .container-header .header-text {
-  margin: 20px 25% 0px 28.5%;
   border-bottom: 2px dashed #C0C0C0;
   padding-bottom: 10px;
 }
