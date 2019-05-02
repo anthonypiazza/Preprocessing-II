@@ -168,6 +168,22 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  display: flex;
+  align-items: baseline;
+  margin: 28px 30% 0px 30%;
+  justify-content: space-between;
+}
+nav .nav-logo > h1 {
+  font-size: 45px;
+}
+nav .nav-menu {
+  font-size: 18px;
+}
+nav .nav-menu a {
+  padding-left: 25px;
+  margin-left: -10px;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
