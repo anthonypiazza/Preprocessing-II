@@ -1,20 +1,28 @@
 // Navigation Styles here
 nav {
     display: flex;
-    align-items: baseline;
-    margin: 28px 30% 0px 30%;
-    justify-content: space-between;
+    align-items: center;
+    margin: 28px 29% 0px 30%;
+    justify-content: flex-start;
 
-    .nav-logo > h1 {
+    .nav-logo {
+        width: 20%;
+        border: 1px solid black;
+
+        h1 {
         font-size: 45px;
+        }
     }
 
     .nav-menu {
+        width: 79%;
         font-size: 18px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: flex-end;
         
         a {
-            padding-left: 25px;
-            margin-left: -10px;
+            padding-left: 30px;
         }
     }
 }
