@@ -1,1 +1,48 @@
 // Navigation Styles here
+nav {
+    display: flex;
+    align-items: center;
+    margin-top: 26px;
+    justify-content: flex-start;
+
+    @media @mobile {
+        flex-direction: column;
+        margin: 18px 0px 0px 0px;
+    }
+
+    .nav-logo {
+
+        h1 {
+            font-size: 40px;
+            
+            @media @mobile {
+                font-size: 30px;
+                padding-left: 20px;
+            }
+        }
+    }
+
+    .nav-menu {
+        font-size: 16px;
+        width: 72.5%;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 6%;
+
+        @media @mobile {
+            width: 100%;
+            justify-content: space-evenly;
+            margin-top: 15px;
+            font-size: 16px;
+            margin-right: 0%;
+        }
+        
+        a {
+            padding-left: 30px;
+
+            @media @mobile {
+                padding-left: 10px;
+            }
+        }
+    }
+}
